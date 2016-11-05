@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageController {
 
-    @GetMapping("/page01")
-    public String page01() {
-        return "page01";
+    @GetMapping("/plain-page")
+    public String plainPage() {
+        return "plain-page";
     }
 
-    @GetMapping("/page02")
-    public String page02() {
-        return "page02";
+    @GetMapping("/pricing-tables")
+    public String pricingTables() {
+        return "pricing-tables";
     }
 
 }
